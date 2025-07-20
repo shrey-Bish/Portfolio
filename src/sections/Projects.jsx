@@ -9,7 +9,7 @@ const projects = [
 • Designed an interactive Streamlit dashboard showcasing prediction scores, patient-level insights, and dynamic SHAP plots.
 • Deployed the complete system on Streamlit Cloud, enabling public access and real-time model exploration.`,
     tech: ["Python", "Pandas", "SHAP", "Streamlit", "LightGBM"],
-    image: "/projects/health.png",
+    image: "projects/health.png",
     github: "https://github.com/shrey-Bish/explainable-health-optimizer",
     live: "https://explainable-health-optimizer-diabetes.streamlit.app"
   },
@@ -19,7 +19,7 @@ const projects = [
 • Trained and evaluated 7 models with 10-fold cross-validation, achieving 97.5% accuracy using Random Forest on 1600+ PlantVillage images.
 • Stored extracted features in HDF5 for reproducibility and deployed a real-time prediction system using Flask on Render.`,
     tech: ["Python", "OpenCV", "Flask", "HDF5"],
-    image: "/projects/plant.png",
+    image: "projects/plant.png",
     github: "https://github.com/shrey-Bish/plant-disease-detection",
     live: "https://plant-disease-detection-ls8e.onrender.com",
     paper: "https://iarjset.com/wp-content/uploads/2023/05/IARJSET.2023.10597.pdf"
@@ -30,7 +30,7 @@ const projects = [
 • Applied TF-IDF and Word2Vec embeddings alongside custom preprocessing including emoji normalization and language filtering.
 • Demonstrated the superiority of CNN architectures over traditional ML on noisy, multilingual data.`,
     tech: ["Python", "TF-IDF", "Word2Vec", "CNN"],
-    image: "/projects/sentiment.png",
+    image: "projects/sentiment.png",
     github: "https://github.com/shrey-Bish/hinglish-sentiment",
     paper: "https://iarjset.com/wp-content/uploads/2023/01/IARJSET.2023.10130.pdf"
   },
@@ -39,7 +39,7 @@ const projects = [
     desc: `• Built and deployed a full-stack Valorant account trading platform using React, Node.js, Express, and MongoDB, boosting user engagement by 20%.
 • Integrated secure authentication and role-based access using JWT and bcrypt, enhancing platform security and reliability.`,
     tech: ["React", "Node.js", "MongoDB"],
-    image: "/projects/valo.png",
+    image: "projects/valo.png",
     github: "https://github.com/shrey-Bish/Valo-Empire"
   }
 ];
