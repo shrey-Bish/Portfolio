@@ -2,7 +2,7 @@
   "name": "shrey-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://shrey-Bish.github.io/Portfolio",
+  "homepage": "https://shrey-bish.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

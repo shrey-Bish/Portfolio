@@ -36,9 +36,9 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="min-h-screen bg-[#0f172a] text-white py-16 px-6">
-      <div className="max-w-5xl mx-auto">
-      <h2 className="text-5xl font-bold text-center text-fuchsia-400 mb-16 tracking-wide underline underline-offset-8 decoration-fuchsia-500">
+    <section id="experience" className="min-h-screen bg-gradient-to-br from-[#1b1b2f] to-[#1b1b2f] text-white px-10 py-20 flex flex-col lg:flex-row items-center justify-between relative overflow-hidden font-sans">
+       <div className="max-w-5xl mx-auto">
+      <h2 className="text-5xl font-bold text-center text-fuchsia-400 mb-20 tracking-wide font-mono">
   Experience
 </h2>
 

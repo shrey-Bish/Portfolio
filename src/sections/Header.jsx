@@ -8,6 +8,7 @@ const Header = () => {
         <ul className="flex gap-6 text-sm">
           <li><a href="#hero" className="hover:text-purple-300">Home</a></li>
           <li><a href="#education" className="hover:text-purple-300">Education</a></li>
+          <li><a href="#experience" className="hover:text-purple-300">Experience</a></li>
           <li><a href="#projects" className="hover:text-purple-300">Projects</a></li>
           <li><a href="#contact" className="hover:text-purple-300">Contact</a></li>
         </ul>

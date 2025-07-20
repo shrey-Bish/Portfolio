@@ -10,6 +10,7 @@ function App() {
     <div className="bg-gray-900 text-white min-h-screen font-sans">
     
       <Hero />
+      <Education />
       <Experience />
       <Projects />
       <Contact />

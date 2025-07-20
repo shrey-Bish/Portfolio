@@ -20,9 +20,9 @@ const educationData = [
 
 const Education = () => {
   return (
-    <section id="education" className="min-h-screen px-6 py-20 bg-gradient-to-b from-[#0f0f1b] to-[#1b1b2f] text-white font-sans">
+    <section id="education" className="min-h-screen bg-gradient-to-br from-[#1b1b2f] to-[#1b1b2f] text-white px-10 py-20 flex flex-col lg:flex-row items-center justify-between relative overflow-hidden font-sans">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-5xl font-extrabold mb-16 text-center text-fuchsia-400 tracking-wide">
+        <h2 className="text-5xl font-bold text-center text-fuchsia-400 mb-20 tracking-wide font-mono">
           Education
         </h2>
 
@@ -37,7 +37,7 @@ const Education = () => {
               </div>
 
               <div className="md:w-3/4 bg-[#202034] rounded-2xl p-6 shadow-xl hover:shadow-fuchsia-500/30 transition-all duration-300">
-                <h3 className="text-2xl font-bold text-fuchsia-300 mb-1">
+                <h3 className="text-2xl font-bold text-pink-300 mb-1">
                   {edu.institution}
                 </h3>
                 <p className="text-lg text-slate-200">{edu.degree}</p>
@@ -52,7 +52,9 @@ const Education = () => {
             </div>
           ))}
         </div>
+        
       </div>
+     
     </section>
   );
 };
